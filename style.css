@@ -1,4 +1,26 @@
-
-p {
-    font-family: 'Verdana', sans-serif;
+#coming soon{
+    color:rgb(228, 176, 107);
+}
+body{
+    background-color:#DDFFF7;
+}
+h3{
+    font-family:comic sans ms;
+}
+h4{
+    font-family:comic sans ms;
+}
+#searchbutton{
+    background-color:#CDACA1;
+}
+#search{
+    color:#CDACA1;
+}
+#goodsleep{
+    text-decoration:none;
+}
+#h4exclusicve{
+    font-family:arial;
+    background-color:#CDD6DD;
+    
 }
