@@ -63,30 +63,11 @@ margin-right:20px;
     margin-right:40px;
     font-family:comic;
 }
-.search-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+.search-box{
+   margin-left: 250px;
+   margin: right 0;
 }
-
-.search-box {
-    width: 300px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#g6{
+    margin-left:0px;
 }
-
-.search-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-.search-button:hover {
-    background-color: #45a049;
-}
+s

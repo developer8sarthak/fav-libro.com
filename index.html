@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search"/>
 </head>
 <script>
-  function searchFunction() {
-      const query = document.querySelector('.search-box').value;
-      alert("Searching for: " + query);
-  }
-</script>
+   function searchFunction() {
+       const query = document.querySelector('.search-box').value;
+       alert("Searching for: " + query);
+   }
+   </script>
+
 <body>
    <header id="headerdiv">
     <div class="search-input">
@@ -22,13 +23,11 @@
                               <a href="ind3.html" id="g7">info
                               </a>
                               <a href="ind2.html" id="g7">login</a>
+                              <div class="search-container" id="g90">
+                                 <input type="text" class="search-box" placeholder="Search...">
+                                 <button class="search-button" onclick="searchFunction()" id="g6">Search</button>
+                             </div>
                           
-                           <div class="search-container">
-                           
-                              <input type="text" class="search-box" placeholder="Search..." >
-                              <button class="search-button" onclick="searchFunction()" align="center">Search</button>
-                           </header>
-                        </div>
  <br>
  <div>
  <div><p><h3 align="center">Today a 'reader', tomorrow a 'leader'</h3></p></div>
