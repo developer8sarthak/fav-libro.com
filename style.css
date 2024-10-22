@@ -14,6 +14,7 @@ h3{
 h4{
     font-family:comic sans ms;
 }
+
 #searchbutton{
     background-color:#CDACA1;
 }
@@ -58,16 +59,56 @@ margin-right:20px;
   
 
 #logo{
-    color:rgb(235, 200, 61);
-    text-decoration:underline;
+    color:rgb(243, 27, 27);
+    text-decoration:none;
     margin-right:40px;
-    font-family:comic;
+    font-family:comic sans ms;;
 }
-.search-box{
-   margin-left: 250px;
-   margin: right 0;
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top:auto;
+    margin-right:auto;
 }
-#g6{
-    margin-left:0px;
+
+.search-box {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-s
+
+.search-button {
+    padding: 5px 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}
+
+.results {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.g{
+    margin-left: none;
+}
