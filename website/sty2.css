@@ -1,0 +1,94 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family:"poppins", san-serif;
+  }
+  body {
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     min-height:100vh;
+     background: url(frst.jpg);
+     background-size :cover;
+     background-position:center;
+  }
+  .wrapper{
+     width:420px;
+     background:transparent;
+     color:#fff;
+     border-radius:12px;
+     padding:30px 40px;
+  }
+  .wrapper h1{
+     font-size:36px;
+     text-align:center;
+  }
+  .wrapper .input-box{
+     width:100%;
+     height: 50px;
+    
+     margin: 30px 0;
+  }
+  .input-box input{
+     width:100%;
+     height:100%;
+     background:transparent;
+     border:none;
+     outline:none;
+     border:2px solid rgb(65, 65, 60);
+     border-radius:40px;
+     font-size:16px;
+     color:#fff;
+     padding:20px 45px 20px 20px;}
+  .input-box input::placeholder{
+     color:#fff;}
+     .input-box 
+    
+  .wrapper .remember-forgot{
+     display:flex;
+     justify-content: space-between;
+     font-size: 14.5;
+     margin:-15px 015px;
+  }
+  .remember-forgot lable input{
+   accent-color:#fff;
+   margin-right:3px;
+  }
+  .remember-forgot a{
+     color:#fff;
+     text-decoration:none;
+  }
+  .remember-forgota:hover{
+     text-decoration: underline;
+  }
+  .wrapper .btn{
+     width: 100px;
+     height: 45px;
+     background:#fff;
+     border: none;
+     outline: none;
+     border-radius: 40px;
+     box-shadow:0 0 10px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0),.1;);
+     cursor:pointer;
+     font-size:16px;
+     color:black;
+     font-weight:600;
+  }
+  .wrapper .register-link{
+  font-size:14.5;
+  text-align: center;
+  margin-top: 20px;
+  margin:20px 0 15px
+  }
+  .reregister-link p a{
+     color:#fff;
+     text-decoration:none;
+     font-weight:600;
+  
+  }
+  .reregister-link p a:hover{
+     text-decoration: underline;
+  }
+ 
+  
