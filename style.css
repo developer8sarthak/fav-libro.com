@@ -9,9 +9,17 @@
 #coming soon{
     color:rgb(228, 176, 107);
 }
-body{
-  font-family:arial;
-    background-color:beige;
+#book1{
+  background-color: lightpink;
+}
+#nppg{
+  color:blue
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
 }
 a{
     color:beige;
@@ -38,9 +46,9 @@ a{
 #search{
     color:#CDACA1;
 }
-#goodsleep{
-    text-decoration:none;
-    color: blue;
+#link{
+  text-decoration: none;
+  color: #0e3f57;
 }
 #h4exclusicve{
     font-family:arial;
@@ -73,47 +81,12 @@ margin-right:20px;
     padding: 8px;
     margin:200px
 }
-
-
-  
-
 #logo{
     color:rgb(243, 27, 27);
     text-decoration:none;
     margin-right:40px;
     font-family:comic sans ms;;
 }
-.search-container {
-    display: flex;
-    justify-content: center;
-    margin-top:auto;
-    margin-right:auto;
-    border:10px;
-    border-color: black;
-}
-
-.search-box {
-    width: 300px;
-    padding: 5px;
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-.search-button {
-    padding: 5px 5px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: auto;
-}
-
-.search-button:hover {
-    background-color: #45a049;
-}
-
 .results {
     margin-top: 20px;
     width: 80%;
@@ -156,7 +129,7 @@ margin-right:20px;
     width: 100%;
     line-height: 65px;
     font-size: 20px;
-    color: rgb(207, 193, 193);
+    color: rgb(187, 181, 181);
     padding-left: 40px;
     box-sizing: border-box;
     border-bottom: 1px solid rgb(24, 21, 21);
@@ -174,16 +147,16 @@ margin-right:20px;
   }
   label #btn,label #cancel{
     position: absolute;
-    background: beige;
+    background: rgb(255, 255, 255);
     border-radius: 2px;
     cursor: pointer; 
-    margin-right: auto;
+  
   }
   label #btn{
-    right:0px ;
+    left:0px ;
     top: 0px;
     font-size: 35px;
-    color: red;
+    color: rgb(36, 165, 234);
     padding: 6px 12px;
     transition: all .5s;
   }
@@ -218,5 +191,49 @@ margin-right:20px;
     transition: all .5s;
   }
   #btn{
-    padding-right: auto;
+    margin-left:80px;
   }
+  #linkg{
+ color: rgb(36, 165, 234);
+  }
+  #gshort{
+    font-family:lora;
+  }
+.menu, .settings {
+    cursor: pointer;
+}
+
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book {
+    width: 45%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.book img {
+    width: 100%;
+}
+
+
+
+.explore-nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.explore-nav a:hover {
+    background-color: #f0f0f0;
+}
+section{
+  margin: 10px; /* Reduce the margin to 10px */
+  
+}
