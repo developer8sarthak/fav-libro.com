@@ -10,15 +10,22 @@
     color:rgb(228, 176, 107);
 }
 #book1{
-  background-color: lightpink;
+  background-color:#ac3b61;
+}
+#book2{
+  background-color: #bab2b5;
 }
 #nppg{
-  color:blue
+  color:#eee2dc;
+}
+#np{
+  color:blue;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family:Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #edc7b7;
 
 }
 a{
@@ -147,7 +154,7 @@ margin-right:20px;
   }
   label #btn,label #cancel{
     position: absolute;
-    background: rgb(255, 255, 255);
+    background: #edc7b7;
     border-radius: 2px;
     cursor: pointer; 
   
@@ -156,7 +163,7 @@ margin-right:20px;
     left:0px ;
     top: 0px;
     font-size: 35px;
-    color: rgb(36, 165, 234);
+    color: #bab2b5;
     padding: 6px 12px;
     transition: all .5s;
   }
