@@ -16,7 +16,8 @@
   background-color: #bab2b5;
 }
 #nppg{
-  color:#eee2dc;
+  color:#d36c38;
+  font-family: comic sans ;
 }
 #np{
   color:blue;
@@ -25,7 +26,7 @@ body {
   font-family:Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #edc7b7;
+  background-color:white;
 }
 a{
     color:beige;
@@ -88,10 +89,10 @@ margin-right:20px;
     margin:200px
 }
 #logo{
-    color:rgb(243, 27, 27);
+    color:rgb(206, 48, 48);
     text-decoration:none;
     margin-right:40px;
-    font-family:comic sans ms;;
+    font-family:comic sans ms;
 }
 .results {
     margin-top: 20px;
@@ -120,13 +121,13 @@ margin-right:20px;
     left: -250px;
     width: 250px;
     height: 100%;
-    background:rgb(52, 53, 55);
+    background:rgb(20, 42, 86);
     transition: all .5s ease;
   
   }
   .sidebar header {
     font-size: 22px;
-    color: white;
+    color: rgb(149, 124, 124);
     line-height: 70px;
     text-align: center;
     background: #072d41;
@@ -156,17 +157,17 @@ margin-right:20px;
   }
   label #btn,label #cancel{
     position: absolute;
-    background: #edc7b7;
+    background:transparent;
     border-radius: 2px;
     cursor: pointer; 
   
   }
   label #btn{
-    left:0px ;
-    top: 0px;
+    right:5px ;
+    top:5px;
     font-size: 35px;
-    color: #bab2b5;
-    padding: 6px 12px;
+    color: #d93431;
+    padding: 10px 12px;
     transition: all .5s;
   }
   label #cancel{
@@ -174,7 +175,7 @@ margin-right:20px;
     left: -195px;
     top: 17px;
     font-size: 30px;
-    color: #0e3f57;
+    color: red;
     padding: 4px 9px;
     transition: all .5s ease;
   }
@@ -191,13 +192,6 @@ margin-right:20px;
   }
   #check:checked ~ section{
     margin-left: 250px;
-  }
-  section{
-    background: url(bg.jpeg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    transition: all .5s;
   }
   #btn{
     margin-left:80px;
@@ -221,28 +215,17 @@ margin-right:20px;
 
 .book {
     width: 45%;
-    margin-bottom: 10px;
+    margin-bottom:3px;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
-.book img {
-    width: 100%;
-}
-
-
-
-.explore-nav a {
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-}
-
-.explore-nav a:hover {
-    background-color: #f0f0f0;
-}
 section{
-  margin: 10px; /* Reduce the margin to 10px */
+  margin: 0px; 
   
+}
+#footer {
+  background:url(footer-fav-libro.jpg);
+
 }
