@@ -1,6 +1,10 @@
-making goals 
-
-
-make a resume 
-make a blog for your channel
-make a one card webpage for your wpg
+done all
+old font style was:Arial, sans-serif,
+new font style is :Verdana, Geneva, Tahoma, sans-serif;on home page
+info page old colour :lightgreen;
+new colour of info page :
+new font style of info page is :Verdana, Geneva, Tahoma, sans-serif;
+old font style of info page was:lora;
+old slidebar header:darkblue;
+new slidebar header:white+border added;
+bookscollection:ul list is added and font is changed with the link colour

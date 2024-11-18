@@ -23,10 +23,14 @@
   color:blue;
 }
 body {
-  font-family:Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   background-color:white;
+  background:url(background-image-r.png);
+  background-position:top;
+  background-size :cover;
+
 }
 a{
     color:beige;
@@ -101,7 +105,8 @@ margin-right:20px;
     margin-right: auto;
 }
 #linksd{
-  color:#0e3f57;
+  color: #3d1892;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .results ul {
@@ -121,17 +126,18 @@ margin-right:20px;
     left: -250px;
     width: 250px;
     height: 100%;
-    background:rgb(20, 42, 86);
+    background:rgb(255, 255, 255);
     transition: all .5s ease;
-  
+    border: 1.75px solid #d4c7c7;
   }
   .sidebar header {
-    font-size: 22px;
+    font-size: 35px;
     color: rgb(149, 124, 124);
     line-height: 70px;
     text-align: center;
-    background: #072d41;
+    background: #ffffff;
     user-select: none;
+    border: 3.5px solid #dba2a1;
   }
   .sidebar ul a{
     display: block;
@@ -142,9 +148,9 @@ margin-right:20px;
     color: rgb(187, 181, 181);
     padding-left: 40px;
     box-sizing: border-box;
-    border-bottom: 1px solid rgb(24, 21, 21);
-    border-top: 1px solid rgba(255,255,255,.1);
-    transition: .4s;
+    border-bottom: 1px solid rgb(220, 164, 164);
+    border-top: 3px solid rgba(200, 26, 26, 0.1);
+    transition: .3s;
   }
   ul li:hover a{
     padding-left: 50px;
@@ -166,7 +172,7 @@ margin-right:20px;
     right:5px ;
     top:5px;
     font-size: 35px;
-    color: #d93431;
+    color: #dba2a1;
     padding: 10px 12px;
     transition: all .5s;
   }
@@ -175,9 +181,10 @@ margin-right:20px;
     left: -195px;
     top: 17px;
     font-size: 30px;
-    color: red;
+    color: #dba2a1;
     padding: 4px 9px;
     transition: all .5s ease;
+    margin-right: auto;
   }
   #check:checked ~ .sidebar{
     left: 0;
@@ -205,14 +212,11 @@ margin-right:20px;
 .menu, .settings {
     cursor: pointer;
 }
-
-
 .book-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .book {
     width: 45%;
     margin-bottom:3px;
@@ -220,12 +224,11 @@ margin-right:20px;
     padding: 5px;
     text-align: center;
 }
-
 section{
   margin: 0px; 
-  
 }
 #footer {
   background:url(footer-fav-libro.jpg);
-
+  background-size :cover;
+  background-position:top,center;
 }
