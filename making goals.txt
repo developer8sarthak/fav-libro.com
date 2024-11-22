@@ -9,3 +9,4 @@ old slidebar header:darkblue;
 new slidebar header:white+border added;
 bookscollection:ul list is added and font is changed with the link colour
 home page:new book container added named book container2
+home-page:background image removed
